@@ -1,0 +1,50 @@
+1: 0: Simulation writes data using engine type:              filestream
+1: 0: ========================================
+1: 0: grid:             512x512x512
+1: 0: steps:            100
+1: 0: plotgap:          10
+1: 0: F:                0.01
+1: 0: k:                0.05
+1: 0: dt:               2
+1: 0: Du:               0.2
+1: 0: Dv:               0.1
+1: 0: noise:            1e-07
+1: 0: output:           gs3_512.bp
+1: 0: adios_config:     adios2.xml
+1: 0: process layout:   3x3x2
+1: 0: local grid size:  171x171x256
+1: 0: ========================================
+1: 0: Simulation at step 10 writing output step     1
+1: 0: Simulation at step 20 writing output step     2
+1: 0: Simulation at step 30 writing output step     3
+1: 0: Simulation at step 40 writing output step     4
+1: 0: Simulation at step 50 writing output step     5
+1: 0: Simulation at step 60 writing output step     6
+1: 0: Simulation at step 70 writing output step     7
+1: 0: Simulation at step 80 writing output step     8
+1: 0: Simulation at step 90 writing output step     9
+1: 0: Simulation at step 100 writing output step     10
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch3>
+Subject: Job 2295664: <adiosvm> in cluster <summit> Done
+
+Job <adiosvm> was submitted from host <login3> by user <jw447> in cluster <summit> at Tue Jul 26 01:25:13 2022
+Job was executed on host(s) <1*batch3>, in queue <batch>, as user <jw447> in cluster <summit> at Tue Jul 26 01:26:39 2022
+                            <42*h35n15>
+                            <42*h35n16>
+                            <42*h36n16>
+</ccs/home/jw447> was used as the home directory.
+</gpfs/alpine/proj-shared/csc143/jwang/io_modeling/data/run_grayscott> was used as the working directory.
+Started at Tue Jul 26 01:26:39 2022
+Terminated at Tue Jul 26 01:27:43 2022
+Results reported at Tue Jul 26 01:27:43 2022
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <adiosvm_e.2295664> for stderr output of this job.
+
