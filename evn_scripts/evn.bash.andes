@@ -10,7 +10,6 @@ module load c-blosc/1.21.0
 
 export PYTHON_PATH=/sw/andes/python/3.7/anaconda-base
 
-export PROJHOME=/gpfs/alpine/proj-shared/csc143/jwang/io_modeling
 export SZ_ROOT=$PROJHOME/ExternalDependencies/SZ
 export SZ_INCLUDE_DIR=$SZ_ROOT/install/include/sz
 export SZ_LIBRARY=$SZ_ROOT/install/lib64/libSZ.so
