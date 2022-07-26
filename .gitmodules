@@ -1,0 +1,7 @@
+[submodule "test"]
+   path = test
+   url = git@github:maloochpich/test.git
+   branch = master
+   ignore = dirty
+
+
