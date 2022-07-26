@@ -2,7 +2,8 @@
 
 export PROJHOME=/gpfs/alpine/proj-shared/csc143/jwang/io_modeling
 
-#source evn_scripts/evn.bash.andes 
+source evn_scripts/evn.bash.andes 
+
 externalDependenciesPath=$PROJHOME/ExternalDependencies
 
 mkdir -p $externalDependenciesPath
@@ -19,9 +20,9 @@ cd $externalDependenciesPath
 #
 #source build_MDF.sh
 #
-#source build_adiosvm.sh
+source build_adiosvm.sh
 
-source build_warpx.sh
+#source build_warpx.sh
 
 echo "Building dependencies done!"
 
