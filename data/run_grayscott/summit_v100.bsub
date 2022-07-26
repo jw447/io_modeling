@@ -1,0 +1,13 @@
+#!/bin/bash
+#BSUB -P CSC143
+#BSUB -W 00:10
+#BSUB -nnodes 3
+#BSUB -alloc_flags smt4
+#BSUB -J adiosvm
+#BSUB -o adiosvm_o.%J
+#BSUB -e adiosvm_e.%J
+
+grayscott=/gpfs/alpine/proj-shared/csc143/jwang/io_modeling/ExternalDependencies/adiosvm/Tutorial/gray-scott/build/gray-scott-summit
+
+jsrun -r 6 -a 1 -c 7 -g 1 -l GPU-GPU -d packed -b rs -e prepended --smpiargs="-gpu" ${grayscott} settings-files-gs3_512.json 
+

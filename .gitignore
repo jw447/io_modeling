@@ -1,6 +1,5 @@
 # cmake compile folder
 /binary/
-/data/
 
 # Generated source files
 src/compressors/compressorIncludes.h
