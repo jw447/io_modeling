@@ -6,6 +6,7 @@ data/
 *.hdf5
 *.bp
 *.dat
+refactored_data/
 
 
 

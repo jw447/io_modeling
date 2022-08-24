@@ -33,7 +33,7 @@ def getMinMax(ts):
 def main():
 
     ts_start   = 1
-    ts_end     = 33
+    ts_end     = 129
     for v in np.arange(ts_start, ts_end):
         getMinMax(v)
 
