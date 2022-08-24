@@ -11,12 +11,16 @@
 #   https://docs.olcf.ornl.gov/systems/summit_user_guide.html#cuda-aware-mpi
 
 #BSUB -P CSC143 
-#BSUB -W 00:10
-#BSUB -nnodes 2
+#BSUB -W 01:00
+#BSUB -nnodes 10
 #BSUB -alloc_flags smt4
 #BSUB -J WarpX
 #BSUB -o WarpXo.%J
 #BSUB -e WarpXe.%J
+
+#export PROJHOME=/gpfs/alpine/proj-shared/csc143/jwang/io_modeling
+#source $PROJHOME/evn_scripts/evn.bash.andes
+#source $PROJHOME/ExternalDependencies/summit_warpx.profile
 
 # make output group-readable by default
 umask 0027
